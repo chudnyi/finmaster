@@ -1,0 +1,2 @@
+json_key_file "~/Desktop/Google\ Play\ Developer\ Console/Google\ Play\ Android\ Developer-fd576af46000.json" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+package_name "com.finmaster" # e.g. com.krausefx.app

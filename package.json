@@ -17,7 +17,7 @@
 		"open-ios": "open ios/*.xcodeproj",
 		"clean": "(cd android/ && gradlew clean)",
 		"build": "(cd android/ && gradlew assembleDebug)",
-		"build-release-apk": "(cd android/ && gradlew assembleRelease)",
+		"build-release-apk": "(cd android/ && ./gradlew assembleRelease)",
 		"prebundle-android": "npm run ts",
 		"prebundle-ios": "npm run ts",
 		"bundle-android": "node node_modules/react-native/local-cli/cli.js bundle --platform android --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --sourcemap-output android/app/src/main/assets/index.android.map --assets-dest android/app/src/main/res/ --dev false --sourcemap-sources-root=build",
