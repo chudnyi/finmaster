@@ -31,7 +31,7 @@
 		"lint-ts": "tslint --formatters-dir node_modules/tslint-teamcity-reporter/ --format TSHintTeamcity \"src/**/*.ts\"",
 		"remotedev": "npm run remotedev-revert && remotedev-debugger --injectserver --injectdebugger false --hostname localhost --port 8000",
 		"remotedev-revert": "remotedev-debugger --revert",
-		"postinstall": "npm run remotedev && rndebugger-open",
+		"__postinstall": "npm run remotedev && rndebugger-open",
 		"upload-bugsnag": "node support/uploadBugsnag.js",
 		"upload-bugsnag:test": "node support/uploadBugsnag.js --platform=android",
 		"shake-android": "adb shell input keyevent 82",
